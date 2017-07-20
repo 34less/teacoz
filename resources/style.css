@@ -1,0 +1,163 @@
+/* 
+Author Alessandro
+title of the project: tea cozy 
+*/
+
+html{
+
+	font-family:Helvetica;
+	font-size:22px;
+	color:seashell;
+	background-color:black;
+	opacity:0.9;
+
+}
+body{
+
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content: start;
+	flex-wrap:nowrap;
+	width:100%;
+
+
+
+}
+
+.header {
+
+	display:inline-flex;
+	align-items:center;
+	height:69px;
+	border-bottom:1px solid seashell;
+	width:100%;
+	justify-content:space-between;
+	position:fixed;
+	margin-bottom:20px;
+	z-index:3;
+	background-color: black;
+	top:0;
+}
+
+.header div{
+		margin:auto 15px;
+}
+
+.header a{
+	text-decoration:underline;
+	margin:auto 15px;
+	color:seashell;
+}
+
+.header img{
+	height:50px;
+	margin-left:10px;
+}
+
+.container{
+	position:relative;
+	top:60px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content: start;
+	flex-wrap:nowrap;
+	z-index:1;
+
+}
+
+.main{
+	text-align:center;
+	width:1200px;
+	height:700px;	
+	background-image:url("../img/img-mission-background.jpg");
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.main div{
+	background-color: black;
+	height:140px;
+	width:1200px;
+}
+
+.gallery{
+
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	width:1000px;
+
+}
+
+.firstline, .secondline{
+	display:inline-flex;
+	justify-content:center;
+	width:1000px;
+
+}
+
+.firstline h4, .secondline h4{
+	margin-top:0;
+
+}
+
+.firstline img, .secondline img{
+
+	width:300px;
+	height:200px;
+	margin:auto 15px 10px 15px;
+}
+
+.where{
+
+	text-align:center;
+	width:1200px;
+	height:500px;	
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	background-image:url("../img/img-locations-background.jpg");
+	background-position: center center;
+
+}
+
+.where .location{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+	width:980px;
+}
+
+.loctitle{
+	margin-bottom:15px;
+}
+
+.where .location div{
+	background-color:black;
+	width:300px;
+}
+
+.footer{
+	text-align:center;
+}
+
+#contact{
+	height:200px;
+}
+
+
+#copyright{
+	text-align:left;
+	position:absolute;
+	width:100%;
+	top:2180px;
+	margin-left:20px;
+
+}
